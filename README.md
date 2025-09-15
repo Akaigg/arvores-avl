@@ -24,7 +24,7 @@ README.md: Este arquivo, explicando o projeto e como utilizá-lo.
 
 🔍 Descrição da Implementação
 
-#O pseudocódigo descreve a lógica de inserção em uma árvore AVL, que segue os passos de uma árvore de busca binária (BST) com adição de:
+O pseudocódigo descreve a lógica de inserção em uma árvore AVL, que segue os passos de uma árvore de busca binária (BST) com adição de:
 
 Atualização da altura dos nós.
 Verificação do fator de balanceamento.
@@ -39,14 +39,14 @@ Right-Left (RL): Rotação à direita seguida de rotação à esquerda.
 Código Java
 A implementação em Java inclui:
 
-Classe Node: Representa um nó da árvore com valor, altura e ponteiros para subárvores esquerda e direita.
+- Classe Node: Representa um nó da árvore com valor, altura e ponteiros para subárvores esquerda e direita.
 Classe AVLTree:
-Métodos para inserção (insert), cálculo de altura (height), balanceamento (getBalance) e rotações (rotateLeft, rotateRight).
-Um método de impressão em pré-ordem (preOrder) para verificar a estrutura da árvore.
-Testes no método main para as três sequências fornecidas.
+- Métodos para inserção (insert), cálculo de altura (height), balanceamento (getBalance) e rotações (rotateLeft, rotateRight).
+- Um método de impressão em pré-ordem (preOrder) para verificar a estrutura da árvore.
+- Testes no método main para as três sequências fornecidas.
 
 
-Saída: O programa imprime cada sequência de inserção e a árvore resultante em pré-ordem.
+- Saída: O programa imprime cada sequência de inserção e a árvore resultante em pré-ordem.
 
 Árvores Resultantes
 As árvores foram construídas passo a passo para cada sequência. A estrutura final de cada uma é descrita abaixo (detalhes no relatório ou código):
