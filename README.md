@@ -11,7 +11,7 @@ Testar com as sequências:
 - 40, 20, 60, 10, 30, 25
 - 60, 40, 80, 35, 50, 90, 20, 38, 37
 - 30, 20, 10, 25, 40, 50, 5, 35, 45
-- 
+  
 Descrever ou desenhar as árvores resultantes.
 
 # 📂 Estrutura do Projeto
