@@ -1,9 +1,9 @@
 # Árvores AVL - Exercício de Inserção
-📝 Descrição
+# 📝 Descrição
 Este projeto é um exercício acadêmico sobre Árvores AVL, uma estrutura de dados de árvore binária de busca auto-balanceada. O objetivo é implementar a lógica de inserção de valores em uma árvore AVL, garantindo que ela permaneça balanceada após cada inserção. O trabalho inclui a criação de um pseudocódigo, uma implementação em Java e a visualização das árvores resultantes para sequências específicas de inserção.
 
-🎯 Objetivo
-O exercício consiste em:
+# 🎯 Objetivo
+# O exercício consiste em:
 
 Desenvolver um pseudocódigo que descreva a lógica de inserção em uma árvore AVL, incluindo o balanceamento por meio de rotações.
 Implementar o pseudocódigo em Java, com uma classe que suporte a inserção e balanceamento da árvore.
@@ -13,8 +13,8 @@ Sequência 2: 60, 40, 80, 35, 50, 90, 20, 38, 37
 Sequência 3: 30, 20, 10, 25, 40, 50, 5, 35, 45
 
 
-📂 Estrutura do Projeto
-O projeto contém os seguintes arquivos:
+# 📂 Estrutura do Projeto
+# O projeto contém os seguintes arquivos:
 
 Pseudocódigo: Descrição detalhada da lógica de inserção em uma árvore AVL, incluindo verificação de balanceamento e rotações (disponível em pseudocode.txt ou no relatório).
 Código Java: Implementação da árvore AVL em Java, com classes para nós e operações de inserção, balanceamento e impressão (AVLTree.java).
@@ -22,9 +22,9 @@ Desenho das Árvores: Representação textual ou gráfica das árvores resultant
 README.md: Este arquivo, explicando o projeto e como utilizá-lo.
 
 
-🔍 Descrição da Implementação
-Pseudocódigo
-O pseudocódigo descreve a lógica de inserção em uma árvore AVL, que segue os passos de uma árvore de busca binária (BST) com adição de:
+# 🔍 Descrição da Implementação
+
+#O pseudocódigo descreve a lógica de inserção em uma árvore AVL, que segue os passos de uma árvore de busca binária (BST) com adição de:
 
 Atualização da altura dos nós.
 Verificação do fator de balanceamento.
