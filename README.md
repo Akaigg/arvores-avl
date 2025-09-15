@@ -16,9 +16,9 @@ Descrever ou desenhar as árvores resultantes.
 
 # 📂 Estrutura do Projeto
 
-Pseudocódigo: Lógica de inserção e balanceamento (pseudocode.txt).
+Pseudocódigo: Lógica de inserção e balanceamento (pscd.txt).
 Código Java: Implementação da árvore AVL (AVLTree.java).
-Desenho das Árvores: Representação textual ou gráfica (trees/ ou relatório).
+Desenho das Árvores: Representação textual.
 README.md: Este arquivo.
 
 # 🔍 Implementação
