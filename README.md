@@ -32,8 +32,8 @@ Código Java: Inclui classe Node, classe AVLTree com métodos de inserção, bal
 
 # 👥 Equipe
 
-Vitor Machado Blume
-Matheus Karpinski
-Rhuan José Voltolini
+ Vitor Machado Blume
+ Matheus Karpinski
+ Rhuan José Voltolini
 
 Desenvolvido para Estruturas de Dados II, Sexto Semestre/2025.
