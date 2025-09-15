@@ -1,0 +1,57 @@
+Função InserirAVL(raiz, valor):
+    Se raiz é nula:
+        Criar novo nó com valor
+        Retornar novo nó
+
+    Se valor < raiz.valor:
+        raiz.esquerda = InserirAVL(raiz.esquerda, valor)
+    Senão se valor > raiz.valor:
+        raiz.direita = InserirAVL(raiz.direita, valor)
+    Senão:
+        Retornar raiz 
+
+    raiz.altura = 1 + Máximo(Altura(raiz.esquerda), Altura(raiz.direita))
+
+    fatorBalanceamento = Altura(raiz.esquerda) - Altura(raiz.direita)
+
+    Se fatorBalanceamento > 1 e valor < raiz.esquerda.valor:
+        Retornar RotacaoDireita(raiz)
+
+    Se fatorBalanceamento < -1 e valor > raiz.direita.valor:
+        Retornar RotacaoEsquerda(raiz)
+
+    Se fatorBalanceamento > 1 e valor > raiz.esquerda.valor:
+        raiz.esquerda = RotacaoEsquerda(raiz.esquerda)
+        Retornar RotacaoDireita(raiz)
+
+    Se fatorBalanceamento < -1 e valor < raiz.direita.valor:
+        raiz.direita = RotacaoDireita(raiz.direita)
+        Retornar RotacaoEsquerda(raiz)
+
+    Retornar raiz
+
+Função RotacaoDireita(nó):
+    y = nó.esquerda
+    T2 = y.direita
+    y.direita = nó
+    nó.esquerda = T2
+    nó.altura = 1 + Máximo(Altura(nó.esquerda), Altura(nó.direita))
+    y.altura = 1 + Máximo(Altura(y.esquerda), Altura(y.direita))
+    Retornar y
+
+Função RotacaoEsquerda(nó):
+    y = nó.direita
+    T2 = y.esquerda
+    y.esquerda = nó
+    nó.direita = T2
+    nó.altura = 1 + Máximo(Altura(nó.esquerda), Altura(nó.direita))
+    y.altura = 1 + Máximo(Altura(y.esquerda), Altura(y.direita))
+    Retornar y
+
+Função Altura(nó):
+    Se nó é nulo:
+        Retornar 0
+    Retornar nó.altura
+
+Função Máximo(a, b):
+    Retornar a se a > b, senão b
